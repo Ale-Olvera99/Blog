@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Atarashii Gakkou! - Contacto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1> ¡Atarashii Gakkou! Fan Blog</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Contactanos</h2>
+            <p>
+                ¿¡Tienes alguna pregunta, comentario o simplemente compartir tu amor quieres por Atashii Gakou!?
+            </p>
+
+            <p>
+                Llena este formulario y nos pondremos en contacto contigo y ver en que te podemos ayudar o si simplemente quieres compartir acerca de ésta pasión que tenemos en común
+            </p>
+        </section>
+
+        <section>
+            <form action="">
+                <fieldset>
+                    <legend>Información que necesitamos para estar en contacto</legend>
+
+                    <label for="nombre">Nombre:</label>
+                    Nombre(s): <input type="text" id="nombre" placeholder="Tu nombre" required> <br>
+
+                    <label for="apellido">Apellidos: </label>
+                    Apellidos: <input type="text" id="apellido" placeholder="Tu apellido"><br>
+
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" placeholder="tuemail@ejemplo.com" required><br>
+
+                    Teléfono: <input type="tel" placeholder="5556575859">
+                </fieldset>
+
+                <fieldset>
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí..." required></textarea>
+
+                     <label for="intereses">¿Qué te interesa más?</label>
+                    <select id="intereses" name="intereses">
+                         <option value="musica">Música</option>
+                            <option value="videos">Videos musicales</option>
+                         <option value="historia">Historia del grupo</option>
+                         <option value="noticias">Noticias y lanzamientos</option>
+                    </select>
+
+                    <label for="referencia">¿Cómo nos conociste?</label>
+                    <select id="referencia" name="referencia">
+                            <option value="redes_sociales">Redes Sociales</option>
+                            <option value="busqueda_google">Búsqueda en Google</option>
+                            <option value="recomendacion">Recomendación</option>
+                            <option value="otros">Otros</option>
+                     </select>
+
+                <fieldset>
+                    <legend>Preferencia de contacto</legend>
+                        <label><input type="radio" name="contacto" value="email" checked> Correo Electrónico</label>
+                        <label><input type="radio" name="contacto" value="telefono"> Teléfono</label>
+            </fieldset>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
